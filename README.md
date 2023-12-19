@@ -1,4 +1,4 @@
-# Bootstrap Portfolio Project - README Template
+# Bootstrap Portfolio Project - README 
 
 <a name="readme-top"></a>
 
