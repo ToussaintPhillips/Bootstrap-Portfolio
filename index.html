@@ -8,17 +8,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <style>
+        body {
+            padding-top: 80px; /* Adjust this depending on the height of your navbar */
+        }
+
+        /* Hover effect for links */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Box shadow on hover for buttons */
+        .btn:hover {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Jumbotron with Introduction -->
-    <div class="jumbotron">
-      <h1 class="display-4">Hi, I'm Toussaint,</h1>
-      <p class="lead">a passionate web developer and audio producer...</p>
-    </div>
-
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Fixed Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand" href="#">Toussaint</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,73 +41,105 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#connect">Connect</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#recruiters">Recruiters</a>
+            <a class="nav-link" href="#connect">Connect</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <!-- About Me Section -->
+    <!-- Jumbotron with Introduction -->
+    <div class="jumbotron">
+      <h1 class="display-4">Hi, I'm Toussaint,</h1>
+      <p class="lead">a passionate web developer and audio producer...</p>
+    </div>
+
+    <!-- About Me and Contact Section -->
     <div id="aboutMe" class="container mt-5">
         <div class="row align-items-center">
-            <div class="col-md-4">
-                <img src="your-image.jpg" alt="Toussaint" class="img-fluid">
-            </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
+                <img src="your-image.jpg" alt="Toussaint" class="img-fluid rounded-circle">
                 <h2>About Me</h2>
                 <p class="text-justify">
-                    Your biography or description goes here. This text is justified to align neatly alongside your image.
+                    Here, talk about your journey, what drives you, or any interesting story that defines your professional life. This is your chance to make a personal connection with your audience.
                 </p>
+            </div>
+            <div class="col-md-6">
+                <h2>Contact Me</h2>
+                <p>Email: toussaint@example.com</p>
+                <p>Phone: 123-456-7890</p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/toussaint">GitHub Profile</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/toussaint">LinkedIn Profile</a></p>
             </div>
         </div>
     </div>
 
+    <!-- Skills Section -->
+    <div id="skills" class="container mt-5">
+        <h2>Skills I'm Learning</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap & Responsive Design</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <!-- Add other skills as needed -->
+        </ul>
+    </div>
+
     <!-- Projects Section -->
     <div id="projects" class="container mt-5">
-        <h2 class="mb-4">My Projects</h2>
+        <h2>My Projects</h2>
         <div class="row">
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card">
                     <img class="card-img-top" src="project1.jpg" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title">Project 1 Title</h5>
-                        <p class="card-text">Short description of Project 1.</p>
+                        <p class="card-text">A brief description of Project 1.</p>
                         <a href="#" class="btn btn-primary">More Info</a>
                     </div>
                 </div>
             </div>
-            <!-- Repeat the following block for each project -->
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card">
-                    <img class="card-img-top" src="project2.jpg" alt="Project 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 2 Title</h5>
-                        <p class="card-text">Short description of Project 2.</p>
-                        <a href="#" class="btn btn-primary">More Info</a>
-                    </div>
-                </div>
-            </div>
-            <!-- ...more projects... -->
+            <!-- Repeat for other projects -->
         </div>
     </div>
 
     <!-- Connect Section -->
-    <div id="connect" class="container">
-      <h2>Connect</h2>
-      <p><i class="fas fa-envelope"></i> toussaintphillips@gmail.com</p>
-      <p><i class="fas fa-phone"></i> 07300403056</p>
-      <p><i class="fab fa-github"></i> [GitHub link]</p>
-      <p><i class="fab fa-linkedin"></i> [LinkedIn link]</p>
+    <div id="connect" class="container mt-5">
+        <h2>Connect with Me</h2>
+        <p>If you're interested in collaborating on a project, have questions, or just want to connect, feel free to get in touch using the contact information in the About section.</p>
     </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3">
+            © 2023 Toussaint's Portfolio
+        </div>
+    </footer>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</body>
-</html>
 
+    <!-- Script to close navbar on click -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var navLinks = document.querySelectorAll('.navbar-nav .nav-item .nav-link');
+            navLinks.forEach(function(eachLink) {
+                eachLink.addEventListener('click', function() {
+                    var toggleButton = document.querySelector('.navbar-toggler');
+                    var navBarCollapse = document.querySelector('.navbar-collapse');
+                    if (toggleButton && navBarCollapse) {
+                        toggleButton.classList.add('collapsed');
+                        navBarCollapse.classList.remove('show');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
 </html>
