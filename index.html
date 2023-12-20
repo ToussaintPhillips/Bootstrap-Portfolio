@@ -8,9 +8,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- SEO Optimization -->
+    <meta name="description" content="Toussaint's professional portfolio showcasing expertise in web development and smart meter engineering.">
     <style>
         body {
             padding-top: 80px; /* Adjust this depending on the height of your navbar */
+            transition: background-color 0.3s, color 0.3s; /* For light/dark mode transition */
+        }
+
+        /* Light/Dark Mode Toggle */
+        .dark-mode {
+            background-color: #121212;
+            color: #ffffff;
         }
 
         /* Hover effect for links */
@@ -51,45 +60,47 @@
     </nav>
 
     <!-- Jumbotron with Introduction -->
-    <div class="jumbotron">
+    <header class="jumbotron">
       <h1 class="display-4">Hi, I'm Toussaint,</h1>
-      <p class="lead">a passionate web developer and audio producer...</p>
-    </div>
+      <p class="lead">A passionate web developer and audio producer...</p>
+    </header>
 
-    <!-- About Me and Contact Section -->
-    <div id="aboutMe" class="container mt-5">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="assets/images/me.jpg" alt="Toussaint" class="img-fluid rounded-circle">
-                <h2>About Me</h2>
-                <p class="text-justify">
-                    As an energetic and innovative Front-End Web Developer, I'm transitioning from a decade in smart meter engineering to web development. My expertise in HTML, CSS, and JavaScript, coupled with a background in system analysis and user-focused design from my engineering career, equips me to address complex tech challenges. Passionate about creating engaging, user-friendly web interfaces, I'm eager to bring a unique blend of technical skill and creative vision to a team that values innovation and transformative technology.
-                </p>
+    <!-- Main Content -->
+    <main>
+        <!-- About Me Section -->
+        <section id="aboutMe" class="container mt-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/images/me.jpg" alt="Toussaint" class="img-fluid rounded-circle">
+                    <h2>About Me</h2>
+                    <p class="text-justify">
+                        As an energetic and innovative Front-End Web Developer, I'm transitioning from a decade in smart meter engineering to web development. My expertise in HTML, CSS, and JavaScript, coupled with a background in system analysis and user-focused design from my engineering career, equips me to address complex tech challenges. Passionate about creating engaging, user-friendly web interfaces, I'm eager to bring a unique blend of technical skill and creative vision to a team that values innovation and transformative technology.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Contact Me</h2>
+                    <p>Email: toussaintphillips@gmail.com</p>
+                    <p>Phone: +447300403056</p>
+                    <p><i class="fab fa-github"></i> <a href="https://github.com/ToussaintPhillips">GitHub Profile</a></p>
+                    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/toussaint-phillips/">LinkedIn Profile</a></p>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h2>Contact Me</h2>
-                <p>Email: toussaintphillips@gmail.com</p>
-                <p>Phone: +447300403056</p>
-                <p><i class="fab fa-github"></i> <a href="https://github.com/ToussaintPhillips">GitHub Profile</a></p>
-                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/toussaint-phillips/">LinkedIn Profile</a></p>
-            </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- Skills Section -->
-    <div id="skills" class="container mt-5">
-        <h2>Skills I'm Learning</h2>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>Bootstrap & Responsive Design</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <!-- Add other skills as needed -->
-        </ul>
-    </div>
+        <!-- Skills Section -->
+        <section id="skills" class="container mt-5">
+            <h2>Skills I'm Learning</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap & Responsive Design</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <!-- Add other skills as needed -->
+            </ul>
+        </section>
 
-    <!-- Projects Section -->
+       <!-- Projects Section -->
     <div id="projects" class="container mt-5">
         <h2>My Projects</h2>
         <div class="row">
@@ -140,11 +151,14 @@
         </div>
     </div>
 
-    <!-- Connect Section -->
-    <div id="connect" class="container mt-5">
-        <h2>Connect with Me</h2>
-        <p>If you're interested in collaborating on a project, have questions, or just want to connect, feel free to get in touch using the contact information in the About section.</p>
-    </div>
+        </section>
+
+        <!-- Connect Section -->
+        <section id="connect" class="container mt-5">
+            <h2>Connect with Me</h2>
+            <p>If you're interested in collaborating on a project, have questions, or just want to connect, feel free to get in touch using the contact information in the About section.</p>
+        </section>
+    </main>
 
     <!-- Footer Section -->
     <footer class="bg-light text-center text-lg-start mt-5">
@@ -152,6 +166,16 @@
             © 2023 Toussaint's Portfolio
         </div>
     </footer>
+
+    <!-- Light/Dark Mode Toggle Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggleButton = document.getElementById('mode-toggle');
+            toggleButton.addEventListener('click', function() {
+                document.body.classList.toggle('dark-mode');
+            });
+        });
+    </script>
 
     <!-- Bootstrap JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
