@@ -44,7 +44,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Bootstrap-Portfolio.png]
+![Bootstrap-Portfolio.png]
+
 <div align="center">
   <a href="https://github.com/your-github-username/Bootstrap-Portfolio">
     <img src="" alt="Screenshot" width="500" height="1500">
