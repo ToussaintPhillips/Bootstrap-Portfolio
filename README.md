@@ -17,7 +17,7 @@
     <a href="https://github.com/ToussaintPhillips/Bootstrap-Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ToussaintPhillips/Bootstrap-Portfolio">View Demo</a>
+    <a href="https://toussaintphillips.github.io/Bootstrap-Portfolio/">View Demo</a>
     ·
     <a href="https://github.com/ToussaintPhillips/Bootstrap-Portfolio/issues">Report Bug</a>
     ·
@@ -135,7 +135,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Toussaint Phillips - toussaintphillips@gmail.com
 
-Project Link: [https://github.com/your-github-username/Bootstrap-Portfolio](https://github.com/your-github-username/Bootstrap-Portfolio)
+Project Link: [https://toussaintphillips.github.io/Bootstrap-Portfolio/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
