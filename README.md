@@ -45,7 +45,7 @@
 ## About The Project
 
 
-![Project Screenshot](relative/path/to/screenshot.png)
+![Project Screenshot](Bootstrap-Portfolio.png)
 
 ## Project Description
 
