@@ -14,14 +14,14 @@
   <p align="center">
     An inspiring portfolio template created using Bootstrap!
     <br />
-    <a href="https://github.com/your-github-username/Bootstrap-Portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ToussaintPhillips/Bootstrap-Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/your-github-username/Bootstrap-Portfolio">View Demo</a>
+    <a href="https://github.com/ToussaintPhillips/Bootstrap-Portfolio">View Demo</a>
     ·
-    <a href="https://github.com/your-github-username/Bootstrap-Portfolio/issues">Report Bug</a>
+    <a href="https://github.com/ToussaintPhillips/Bootstrap-Portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/your-github-username/Bootstrap-Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/ToussaintPhillips/Bootstrap-Portfolio/issues">Request Feature</a>
   </p>
 </div>
 
@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Bootstrap Portfolio Screen Shot][product-screenshot]](https://example.com)
+[![Bootstrap Portfolio Screen Shot][product-screenshot]](Bootstrap-Portfolio.png)
 
 This portfolio template is a showcase of skills and projects, featuring a sleek design and responsive layout built with Bootstrap. It's perfect for anyone looking to create a professional online presence.
 
