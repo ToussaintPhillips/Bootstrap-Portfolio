@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[[Bootstrap-Portfolio.png](Bootstrap-Portfolio.png)
+(Bootstrap-Portfolio.png)
 
 This portfolio template is a showcase of skills and projects, featuring a sleek design and responsive layout built with Bootstrap. It's perfect for anyone looking to create a professional online presence.
 
